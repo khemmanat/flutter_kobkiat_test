@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// AppColors is a class that contains all colors used in the app
 class AppColors {
   AppColors._();
 

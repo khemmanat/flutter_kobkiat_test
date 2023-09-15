@@ -22,11 +22,6 @@ class _HomeScreenState extends State<HomeScreen> {
   final taskBloc = TaskBloc();
   TextEditingController titleController = TextEditingController();
 
-  @override
-  void initState() {
-    super.initState();
-  }
-
   void addTask() {
     if (titleController.text.isEmpty) {
       showDialog(

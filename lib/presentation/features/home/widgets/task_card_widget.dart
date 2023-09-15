@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../../common/constants/app_colors.dart';
 import '../../../../domain/entities/task_data.dart';
 
+/// TaskCardWidget is a widget that displays a task card
+/// It contains a checkbox, a task title, and a delete button
 class TaskCardWidget extends StatelessWidget {
   const TaskCardWidget({super.key, required this.task, required this.onChanged, required this.onDelete});
 

@@ -7,7 +7,7 @@ part 'task_event.dart';
 part 'task_state.dart';
 
 class TaskBloc extends Bloc<TaskEvent, TaskState> {
-  TaskBloc() : super(TaskState()) {
+  TaskBloc() : super(const TaskState()) {
     on<FetchTask>(_onFetchTask);
     on<AddTask>(_onAddTask);
     on<UpdateTask>(_onUpdateTask);

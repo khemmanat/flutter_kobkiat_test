@@ -1,5 +1,6 @@
 part of 'task_bloc.dart';
 
+/// TaskState is a state class that represents the state of the task.
 abstract class TaskEvent extends Equatable {
   const TaskEvent();
 
